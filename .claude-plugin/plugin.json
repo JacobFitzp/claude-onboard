@@ -1,0 +1,10 @@
+{
+  "name": "onboarder",
+  "version": "1.0.0",
+  "description": "Onboards Claude to your working preferences and saves them to persistent memory",
+  "author": {
+    "name": "Jacob Fitzpatrick",
+    "email": "jacobfitzpatrick1303@gmail.com"
+  },
+  "keywords": ["memory", "preferences", "onboarding", "personalization"]
+}
