@@ -1,4 +1,4 @@
-# Onboarder
+# Claude Onboard
 
 A Claude Code plugin that learns how you like to work and remembers it permanently. Run `/onboard` once — every future session starts already calibrated to your preferences.
 
@@ -11,14 +11,14 @@ Onboarder fixes that. It asks you 16 targeted questions across 4 categories, the
 ## Install
 
 ```bash
-claude plugin install https://github.com/jacobfitzpatrick/onboarder
+claude plugin install https://github.com/JacobFitzp/claude-onboard
 ```
 
 Or clone and install locally:
 
 ```bash
-git clone https://github.com/jacobfitzpatrick/onboarder
-claude plugin install ./onboarder
+git clone https://github.com/JacobFitzp/claude-onboard
+claude plugin install ./claude-onboard
 ```
 
 ## Usage

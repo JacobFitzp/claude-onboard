@@ -1,5 +1,7 @@
 {
-  "name": "onboarder",
+  "name": "claude-onboard",
+  "repository": "https://github.com/JacobFitzp/claude-onboard",
+  "homepage": "https://github.com/JacobFitzp/claude-onboard",
   "version": "1.0.0",
   "description": "Onboards Claude to your working preferences and saves them to persistent memory",
   "author": {
