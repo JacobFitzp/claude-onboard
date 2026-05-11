@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/license-MIT-f97316?style=flat-square)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/JacobFitzp/claude-onboard?style=flat-square&color=484f58)](https://github.com/JacobFitzp/claude-onboard/stargazers)
 
-A Claude Code plugin that learns how you like to work and remembers it permanently. Run `/onboard` once — every future session starts already calibrated to your preferences.
+A Claude Code plugin that learns how you like to work and remembers it permanently. Run `/claude-onboard:onboard` once — every future session starts already calibrated to your preferences.
 
 ## Why
 
@@ -31,12 +31,12 @@ claude --plugin-dir ./claude-onboard
 ## Usage
 
 ```
-/onboard
+/claude-onboard:onboard
 ```
 
 That's it. Claude will walk you through 4 rounds of questions, then save your preferences to persistent memory. Takes about 2 minutes.
 
-To update your preferences at any time, run `/onboard` again — it overwrites the existing memory files.
+To update your preferences at any time, run `/claude-onboard:onboard` again — it overwrites the existing memory files.
 
 ## What It Configures
 
@@ -96,9 +96,9 @@ Claude reads these at the start of every session and applies them without being 
 
 **Scope discipline** — one of the most common friction points with AI assistants. Onboarder lets you lock this in: strict scope only, flag-but-don't-fix, or clean up adjacent issues.
 
-**Persistent across sessions** — preferences survive context resets, new conversations, and model updates. Run `/onboard` once per project.
+**Persistent across sessions** — preferences survive context resets, new conversations, and model updates. Run `/claude-onboard:onboard` once per project.
 
-**Re-runnable** — preferences change. Run `/onboard` any time to update. Existing memory files are overwritten, not duplicated.
+**Re-runnable** — preferences change. Run `/claude-onboard:onboard` any time to update. Existing memory files are overwritten, not duplicated.
 
 ## Requirements
 
