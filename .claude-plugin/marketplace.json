@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    {
+      "name": "claude-onboard",
+      "version": "1.0.0",
+      "description": "Onboards Claude to your working preferences and saves them to persistent memory",
+      "author": "Jacob Fitzpatrick",
+      "repository": "https://github.com/JacobFitzp/claude-onboard"
+    }
+  ]
+}

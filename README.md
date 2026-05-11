@@ -16,15 +16,16 @@ Onboarder fixes that. It asks you 16 targeted questions across 4 categories, the
 
 ## Install
 
+**From GitHub** (recommended):
 ```bash
-claude plugin install https://github.com/JacobFitzp/claude-onboard
+/plugin marketplace add JacobFitzp/claude-onboard
+/plugin install claude-onboard@JacobFitzp/claude-onboard
 ```
 
-Or clone and install locally:
-
+**Locally** (development / offline):
 ```bash
 git clone https://github.com/JacobFitzp/claude-onboard
-claude plugin install ./claude-onboard
+claude --plugin-dir ./claude-onboard
 ```
 
 ## Usage
