@@ -14,7 +14,7 @@
         "email": "jacobfitzpatrick1303@gmail.com"
       },
       "source": {
-        "type": "github",
+        "source": "github",
         "repo": "JacobFitzp/claude-onboard"
       }
     }
