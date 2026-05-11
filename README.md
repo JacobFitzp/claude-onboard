@@ -1,5 +1,11 @@
 # Claude Onboard
 
+![Claude Onboard](banner.svg)
+
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin-7c3aed?style=flat-square)](https://claude.ai/code)
+[![License](https://img.shields.io/badge/license-MIT-f97316?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/JacobFitzp/claude-onboard?style=flat-square&color=484f58)](https://github.com/JacobFitzp/claude-onboard/stargazers)
+
 A Claude Code plugin that learns how you like to work and remembers it permanently. Run `/onboard` once — every future session starts already calibrated to your preferences.
 
 ## Why
@@ -67,7 +73,10 @@ To update your preferences at any time, run `/onboard` again — it overwrites t
 
 ## How It Works
 
-After you answer, Onboarder writes 4 memory files into your project's Claude memory directory (`~/.claude/projects/<project>/memory/`):
+The first question asks whether preferences should apply to this project only or globally across all projects. Onboarder then writes 4 memory files into the appropriate directory:
+
+- **Per-project**: `~/.claude/projects/<project>/memory/`
+- **Global**: `~/.claude/memory/`
 
 | File | Contains |
 |---|---|
