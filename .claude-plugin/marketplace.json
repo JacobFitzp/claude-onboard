@@ -1,5 +1,5 @@
 {
-  "name": "JacobFitzp/claude-onboard",
+  "name": "claude-onboard",
   "owner": {
     "name": "Jacob Fitzpatrick",
     "github": "JacobFitzp"
@@ -13,7 +13,10 @@
         "name": "Jacob Fitzpatrick",
         "email": "jacobfitzpatrick1303@gmail.com"
       },
-      "source": "https://github.com/JacobFitzp/claude-onboard"
+      "source": {
+        "type": "github",
+        "repo": "JacobFitzp/claude-onboard"
+      }
     }
   ]
 }
